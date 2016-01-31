@@ -34,7 +34,7 @@ pl:
       spree/order:
         checkout_complete: Zamówienie zakończone
         completed_at: Zakończone o
-        coupon_code: Kod kuponu
+        coupon_code: Kod rabatowy
         created_at: Data zamówienia
         email: E-mail klienta
         ip_address: Adres IP
@@ -411,7 +411,7 @@ pl:
     categories: Kategorie
     category: Kategoria
     check_for_spree_alerts: Sprawdź alarmy Spree
-    checkout: Złożenie zamówienia
+    checkout: Zamawiam
     choose_a_customer: Wybierz klienta
     choose_currency: Wybierz walutę
     choose_dashboard_locale: Wybierz ustawienia regionalne konsoli
@@ -444,15 +444,15 @@ pl:
       FRA: Francja
       ITA: Włochy
       US: Stany Zjednoczone Ameryki Północnej
-    coupon: Kupon
-    coupon_code: Kod kuponu
-    coupon_code_already_applied: Do tego zamówienia wykorzystano już kod kuponu
-    coupon_code_applied: Kod kuponu został zastosowany do Twojego zamówienia.
-    coupon_code_better_exists: Poprzednio zastosowany kod kuponu jest korzystniejszy
-    coupon_code_expired: Kod kuponu wygasł
-    coupon_code_max_usage: Przekroczono limit wykorzystania kodu kuponu
-    coupon_code_not_eligible: Podany kod kuponu nie jest możliwy do wykorzystania z tym zamówieniem
-    coupon_code_not_found: Podany kod kuponu nie istnieje. Spróbuj ponownie.
+    coupon: Rabat
+    coupon_code: Kod rabatowy
+    coupon_code_already_applied: Do tego zamówienia wykorzystano już kod rabatowy
+    coupon_code_applied: Kod rabatowy został zastosowany do Twojego zamówienia.
+    coupon_code_better_exists: Poprzednio zastosowany kod rabatowy jest korzystniejszy
+    coupon_code_expired: Kod rabatowy wygasł
+    coupon_code_max_usage: Przekroczono limit wykorzystania kodu rabatowego
+    coupon_code_not_eligible: Podany kod rabatowy nie jest możliwy do wykorzystania z tym zamówieniem
+    coupon_code_not_found: Podany kod rabatowy nie istnieje. Spróbuj ponownie.
     create: Utwórz
     create_a_new_account: Utwórz nowe konto
     created_at: Utworzono
@@ -524,7 +524,7 @@ pl:
     editing_zone: Edycja strefy
     email: E-mail
     empty: Pusty
-    empty_cart: Pusty koszyk
+    empty_cart: Usuń wszystko z koszyka
     enable_mail_delivery: Włącz dostawę pocztą
     end: Koniec
     ending_in: Koniec w 
@@ -538,13 +538,14 @@ pl:
     errors_prohibited_this_record_from_being_saved:
       one: 1 błąd uniemożliwił zachowanie tego wpisu
       other: ! '%{count} błędy(-ów) uniemożliwiło zachowanie tego wpisu'
+      few: ! '%{count} błędy(-ów) uniemożliwiło zachowanie tego wpisu'
     event: Zdarzenie
     events:
       spree:
         cart:
           add: Dodaj do koszyka
         checkout:
-          coupon_code_added: Dodano kod kuponu
+          coupon_code_added: Dodano kod rabatowy
         content:
           visited: Odwiedź stronę o stałej zawartości
         order:
@@ -1071,7 +1072,7 @@ pl:
     unlock: Odblokuj
     unrecognized_card_type: Nierozpoznany typ karty
     unshippable_items: Pozycje, których nie można wysłać
-    update: Uaktualnij
+    update: Przelicz koszyk
     updating: Uaktualnienie
     usage_limit: Limit wykorzystania
     use_billing_address: Taki sam jak do zapłaty
